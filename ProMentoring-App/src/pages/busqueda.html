@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/busqueda.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <script src="https://kit.fontawesome.com/c9c206d8a8.js" crossorigin="anonymous"></script>
+
+</head>
+<script src="https://kit.fontawesome.com/c9c206d8a8.js" crossorigin="anonymous"></script>
+
+<body>
+    <header>
+        <div class="navbar container-row">
+            <div class="logo">
+                <a href="../../../ProMentoring-Landing-Page/src/index.html"><img src="../assets/logo.png"
+                        alt="logo-ProMentoring" id="logo"></a>
+                <h1>ProMentoring</h1>
+            </div>
+            <div class="pages-indixes">
+                <a href="#mentorsList">Busqueda</a>
+                <a id="sesion-link">Mentorias</a>
+                <a id="calendar-link">Calendarios</a>
+                <a id="profile-link">Mi Perfil &nbsp; <i class="fa-regular fa-user fa-lg"></i></a>
+            </div>
+        </div>
+    </header>
+    <section id="buscador" class="buscador-section">
+        <h2 class="titulo">Búsqueda de mentores expertos en programación</h2>
+        <div class="container-row busqueda">
+            <div class="container-col ">
+                <div class="filter">
+                    <label>Habilidades:</label>
+                    <span class="arrow-icon">▼</span>
+                </div>
+                <div id="skillsFilter" class="checkbox-group habilidades">
+                    <!--  -->
+                </div>
+            </div>
+            <div class="container-col">
+                <div class="filter">
+                    <label>Precios:</label>
+                    <span class="arrow-icon">▼</span>
+                </div>
+                <div class="checkbox-group">
+                    <div class="container-row precios">
+                        <div class="container-col">
+                            <label for="precio-menor" class="precio">Precio menor:</label>
+                            <input type="number" id="precio-menor" min="0" class="price-input">
+                        </div>
+                        <div class="container-col">
+                            <label for="precio-mayor" class="precio">Precio mayor:</label>
+                            <input type="number" id="precio-mayor" min="0" class="price-input">
+                        </div>
+                    </div>
+                    <p>Todos los precios en soles</p>
+                </div>
+            </div>
+            <div class="container-col">
+                <div class="filter">
+                    <label>Modalidad:</label>
+                    <span class="arrow-icon">▼</span>
+                </div>
+                <div class="checkbox-group modalidad">
+                    <div class="elemento">
+                        <input type="checkbox" id="grupal" value="grupal">
+                        <label for="grupal">Grupal</label>
+                    </div>
+                    <div class="elemento">
+                        <input type="checkbox" id="individual" value="individual">
+                        <label for="individual">Individual</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mentors">
+        <div class="container-col">
+            <div id="mentorsList" class="mentors-list">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="container-bottom-items">
+            <div id="box-logo">
+                <img src="../assets/logo.png" alt="LOGO">
+                <h1>ProMentoring</h1>
+            </div>
+            <div id="container-options">
+                <div class="container-columns">
+                    <h3>Nosotros</h3>
+                    <a href="">Acerca de</a>
+                    <a href="">Contactos</a>
+                    <a href="">Servicios</a>
+                    <a href="">Socios</a>
+                </div>
+                <div class="container-columns">
+                    <h3>Comunidades</h3>
+                    <a href="">Estudiantes</a>
+                    <a href="">Mentores</a>
+                    <a href="">Publicidad</a>
+                    <a href="">Tutoriales</a>
+                </div>
+                <div class="container-columns">
+                    <h3>Ayuda</h3>
+                    <a href="">Soporte</a>
+                    <a href="">Términos de servicio</a>
+                </div>
+            </div>
+            <div id="iconos">
+                <a href=""><img src="../assets/fb-krita.png" width="40px" height="40px" alt="FACEBOOK"></a>
+                <a href=""><img src="../assets/yt-krita.png" width="40px" height="40px" alt="YOUTUBE"></a>
+                <a href=""><img src="../assets/instagram-krita.png" width="40px" height="35px" alt="INSTAGRAM"></a>
+                <a href=""><img src="../assets/telegram-krita.png" width="40px" height="40px" alt="TELEGRAM"></a>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div id="container-conditions">
+                <a href="">Políticas de privacidad</a>
+                <a href="">Términos de uso</a>
+                <a href="">Cookies</a>
+                <a href="">Legal</a>
+            </div>
+            <span>&copy; 2023 ProMentoring. Todos los derechos reservados</span>
+        </div>
+    </footer>
+    <script src="../js/busqueda.js"></script>
+    <!-- <script src="../js/mentor.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,316 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "user": "gabe10",
+      "names": "Gabriel Esteban",
+      "lastname": "Gavilan Torres",
+      "password": "123",
+      "email": "gabe@gmail.com",
+      "career": "Ingenieria De Software",
+      "description": " No se",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQHf6bMlJ3JRfA/profile-displayphoto-shrink_200_200/0/1519754279285?e=1691020800&v=beta&t=GNgoC6zjx6ecqqBbf65Q0BesRJy9c3eT3bVN9RJ22Tg",
+      "skills": [
+        "Programación"
+      ]
+    },
+    {
+      "id": 2,
+      "user": "test123",
+      "names": "Alex ",
+      "lastname": "Merino Montaña",
+      "password": "12345",
+      "email": "test@gmail.com",
+      "career": "Ingenieria De Software",
+      "description": " Hola Mundo. :D",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQHf6bMlJ3JRfA/profile-displayphoto-shrink_200_200/0/1519754279285?e=1691020800&v=beta&t=GNgoC6zjx6ecqqBbf65Q0BesRJy9c3eT3bVN9RJ22Tg",
+      "skills": [
+        "Programación"
+      ]
+    },
+    {
+      "id": 3,
+      "user": "rodrigo321",
+      "names": "Rodrigo Simon",
+      "lastname": "Valtazar Ceres",
+      "password": "rodrigo123",
+      "email": "rodrigo@gmail.com",
+      "career": "Ciencias De La Computacion",
+      "description": " Testeando la biografia.",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQHf6bMlJ3JRfA/profile-displayphoto-shrink_200_200/0/1519754279285?e=1691020800&v=beta&t=GNgoC6zjx6ecqqBbf65Q0BesRJy9c3eT3bVN9RJ22Tg",
+      "skills": [
+        "Resolución De Problemas",
+        "Trabajo En Equipo",
+        "Aprendizaje Continuo"
+      ]
+    },
+    {
+      "id": 4,
+      "user": "pedritoNoPedrito",
+      "names": "Pedro Norman",
+      "lastname": "Cesares Zen",
+      "password": "123",
+      "email": "pedrito@gmail.com",
+      "career": "Ingenieria De Software",
+      "description": " Durante mi trayecto académico, he adquirido habilidades en varios lenguajes de programación como Java, Python y C++. Además, tengo experiencia en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS y JavaScript. Estoy entusiasmado por aprender nuevas tecnologías y herramientas que me permitan crear soluciones innovadoras y eficientes.",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQHf6bMlJ3JRfA/profile-displayphoto-shrink_200_200/0/1519754279285?e=1691020800&v=beta&t=GNgoC6zjx6ecqqBbf65Q0BesRJy9c3eT3bVN9RJ22Tg",
+      "skills": [
+        "Programación",
+        "Estructuras De Datos Y Algoritmos",
+        "Desarrollo Web"
+      ]
+    },
+    {
+      "id": 5,
+      "user": "gabe03",
+      "names": "Lucia Maria",
+      "lastname": "Silva Maldonado",
+      "password": "123",
+      "email": "carlos@gmail.com",
+      "career": "Ciencias de la Computacion",
+      "description": "Soy una apasionada estudiante de Ciencias de la Computación en busca de desafíos y oportunidades para expandir mis conocimientos en el campo de la tecnología. Mi objetivo principal es adquirir una base sólida en los fundamentos de la programación y las ciencias de la computación, mientras me enfoco en el desarrollo de software y la resolución de problemas.",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQHf6bMlJ3JRfA/profile-displayphoto-shrink_200_200/0/1519754279285?e=1691020800&v=beta&t=GNgoC6zjx6ecqqBbf65Q0BesRJy9c3eT3bVN9RJ22Tg",
+      "skills": [
+        "Programación",
+        "Estructuras De Datos Y Algoritmos",
+        "Desarrollo Web"
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "user": "juanOrtiz",
+      "names": "Juan Ortiz",
+      "lastname": "Ortiz Vega",
+      "password": "123",
+      "email": "ortiz@gmail.com",
+      "speciality": "Full stack Web Developer",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQHf6bMlJ3JRfA/profile-displayphoto-shrink_200_200/0/1519754279285?e=1691020800&v=beta&t=GNgoC6zjx6ecqqBbf65Q0BesRJy9c3eT3bVN9RJ22Tg",
+      "icons": [
+        "fa-python",
+        "fa-database",
+        "fa-php"
+      ],
+      "skills": [
+        "Python",
+        "Php"
+      ],
+      "description": "Hola soy Juan Carlos Ortiz Vega. Me especializo en el desarrollo full stack de sitios web. Me encanta programar y me encanta ayudar a las personas a aprender a programar. He estado programando profesionalmente durante más de ocho años. He estado enseñando a la gente a programar durante más de cinco años. Además, cuando enseño, me gusta revisor los problemas con los que se encuentran mis alumnos para poder ayudarlos y brindarles una retroalimentación sobre su trabajo.",
+      "Reseñas": [
+        {
+          "name": "Gustavo Alonso",
+          "lastname": "Mendoza Gutierrez",
+          "review": "He tenido dos sesiones con el profesor y desde la primera sesión me pareció un excelente mentor. Me gusta como explica y se toma su tiempo para poder retroalimentarte detalladamente. Además, tiene mucha paciencia cuando no entiendes algún concepto o si presentas algún error con el IDE te ayuda sin ningún problema. Por eso, siempre que tengo sesiones con él, no tengo miedo de preguntarle cualquiera cosa, porque sé que me va a ayudar sin hacerme sentir incómodo o temerozo. Considero que no hay mejor mentor que este para aprender sobre el desarrollo full stack para aplicaciones web"
+        },
+        {
+          "name": "Ana Maria",
+          "lastname": "Silva Marquiño",
+          "review": "La mentoría de programación con el profesor superó todas mis expectativas. Sus explicaciones claras y ejemplos prácticos me ayudaron a comprender los conceptos de programación de una manera mucho más profunda. Su pasión por la materia y su compromiso con nuestros éxitos individuales nos motivó a todos a esforzarnos y superar nuestros límites. Sin duda, recomendaría esta mentoría a cualquier persona que esté buscando mejorar sus habilidades en programación y desee contar con el apoyo de un mentor experimentado."
+        },
+        {
+          "name": "Renzo Andree",
+          "lastname": "Espíritu Cueva",
+          "review": "Una de las cualidades más destacadas de este mentor es su capacidad para explicar conceptos complejos de manera clara y concisa. Utiliza un enfoque didáctico y estructurado que permite a los estudiantes comprender y asimilar fácilmente los temas más desafiantes. Además, se asegura de adaptar su estilo de enseñanza a las necesidades individuales de cada estudiante, brindando explicaciones adicionales cuando sea necesario y fomentando un ambiente de preguntas y respuestas para fomentar la comprensión profunda."
+        }
+      ],
+      "price": "80",
+      "modalities": [
+        "Individual"
+      ]
+    },
+    {
+      "id": 2,
+      "user": "carlozR",
+      "names": "Carlos Ramirez",
+      "lastname": "Lopez Campos",
+      "password": "123",
+      "email": "camposL@gmail.com",
+      "speciality": "Senior iOS Developer",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQGY9TGpHbptXg/profile-displayphoto-shrink_200_200/0/1621468147852?e=1691020800&v=beta&t=jjkyJ9cn6or9M-VF5afOlxreDpfioQ0NwUZRcI1GPU8",
+      "icons": [
+        "fa-android",
+        "fa-swift",
+        "fa-apple"
+      ],
+      "skills": [
+        "Flutter",
+        "Swift",
+        "Dart"
+      ],
+      "description": "Soy un profesor apasionado y dedicado especializado en Inteligencia Artificial (IA). Con una sólida formación académica en Ciencias de la Computación y una destacada trayectoria profesional en el campo, poseo un amplio conocimiento teórico y habilidades prácticas en programación y IA. Mi enfoque se centra en el aprendizaje basado en la experiencia y la aplicación práctica de los conceptos. Mi objetivo es inspirar a mis alumnos, proporcionándoles las herramientas y conocimientos actualizados para desarrollar soluciones inteligentes y creativas utilizando algoritmos de IA y aprendizaje automático. Estoy comprometido a apoyar su crecimiento profesional y ayudarles a enfrentar los desafíos de la IA en esta industria en constante evolución.",
+      "Reseñas": [
+        {
+          "name": "Juan Manrique",
+          "lastname": "Pañygua Faustino",
+          "review": "La mentoría con la profesora fue un verdadero regalo. Aunque estaba un poco intimidado al principio, su enfoque amigable y su habilidad para transmitir conocimientos me hicieron sentir cómodo desde el primer día. Además de aprender nuevos lenguajes y técnicas de programación, también adquirí habilidades de resolución de problemas y pensamiento lógico. Recomiendo encarecidamente esta mentoría a cualquiera que quiera dar un salto cuántico en su carrera en el ámbito de la programación."
+        },
+        {
+          "name": "Gabriela Susana",
+          "lastname": "Diaz Vera",
+          "review": "No puedo expresar con palabras lo valiosa que fue la mentoría con la profesora. Aprendí más en unas pocas semanas de mentoría que en meses de estudio autodidacta. El profesor demostró un profundo conocimiento en programación y compartió con nosotros ejemplos prácticos que nos permitieron aplicar lo que aprendíamos. Fue un verdadero cambio de juego para mi carrera en desarrollo de software."
+        }
+      ],
+      "price": "40",
+      "modalities": [
+        "Individual",
+        "Grupal"
+      ]
+    },
+    {
+      "id": 3,
+      "user": "mariaL03",
+      "names": "Maria Lopez",
+      "lastname": "Ñavez Tolon",
+      "password": "123",
+      "email": "mariaLopez@gmail.com",
+      "speciality": "Senior Sofware Engineer",
+      "photo": "https://media.licdn.com/dms/image/C4E03AQEw44XNwPZdaw/profile-displayphoto-shrink_200_200/0/1625762611009?e=1691020800&v=beta&t=VTe7xPDdlilzcp1jIV3vRXwxqcjMtB38X04vLf8Xk3c",
+      "icons": [
+        "fa-square",
+        "fa-react",
+        "fa-angular"
+      ],
+      "skills": [
+        "React",
+        "Angular",
+        "JavaScript"
+      ],
+      "Reseñas": [
+        {
+          "name": "Ana Maria",
+          "lastname": "Coronel Ramos",
+          "review": "Su compromiso y entusiasmo por la programación son notables en cada interacción con sus estudiantes. Su enfoque educativo es sobresaliente, combinando hábilmente sus conocimientos técnicos con su habilidad para transmitirlos de manera clara y comprensible. Su empatía y paciencia son destacables, ya que se toma el tiempo necesario para comprender las necesidades individuales de cada estudiante y adapta su enfoque de enseñanza en consecuencia. Además de su experiencia técnica, la mentora también se preocupa por el desarrollo personal y profesional de sus estudiantes, brindando orientación y apoyo en áreas como la solución de problemas, la comunicación efectiva y el trabajo en equipo. Su dedicación al éxito de sus estudiantes se refleja en su disponibilidad para responder preguntas, brindar retroalimentación constructiva y proporcionar recursos adicionales. En resumen, la guía de programación en línea es una líder ejemplar y una fuente inigualable de inspiración, cuyo impacto en la vida y carrera de sus estudiantes es invaluabre."
+        }
+      ],
+      "price": "50",
+      "modalities": [
+        "Grupal"
+      ]
+    },
+    {
+      "id": 4,
+      "user": "danielT",
+      "names": "Daniel Torres",
+      "lastname": "Taliban Del Sur",
+      "password": "12345",
+      "email": "talibanTorres@gmail.com",
+      "speciality": "Full-Stack Developer",
+      "photo": "https://media.licdn.com/dms/image/C4D03AQGC4RfuppQhng/profile-displayphoto-shrink_200_200/0/1654101837475?e=1691020800&v=beta&t=UzsqPLkSPuCTIk8qJOp3Bj0DnxMQgoTfWKrNTOqAW5E",
+      "icons": [
+        "fa-square",
+        "fa-node-js",
+        "fa-html5"
+      ],
+      "skills": [
+        "SQL",
+        "Node",
+        "Html"
+      ],
+      "Reseñas": [
+        {
+          "name": "Carlos Alonso",
+          "lastname": "Pereira Gong",
+          "review": "Su pasión por la programación es contagiosa y su habilidad para transmitir conocimientos complejos de manera clara y concisa es excepcional. Su enfoque didáctico y estructurado brinda a los estudiantes una base sólida para comprender los conceptos más desafiantes. Además, su paciencia y empatía crean un ambiente de aprendizaje seguro y acogedor, donde cada estudiante se siente valorado y apoyado. No solo se limita a enseñar habilidades técnicas, sino que también fomenta el crecimiento personal y profesional, guiando a los estudiantes en su desarrollo de habilidades blandas y proporcionando recursos adicionales para ampliar su conocimiento. En resumen, el mentor de programación en línea es un guía excepcional, cuyo compromiso y dedicación son invaluables para aquellos que desean embarcarse en el emocionante viaje de la programación."
+        },
+        {
+          "name": "Jordi Alonso",
+          "lastname": "Santi Vega",
+          "review": "El mentor de programación que he tenido el privilegio de tener en mis clases en línea ha sido una verdadera joya en mi camino de aprendizaje. Su dedicación, conocimiento y pasión por la enseñanza son simplemente excepcionales. Desde el primer momento en que me uní a su programa, supe que estaba en buenas manos.\n\nLo que realmente destaca de este mentor es su habilidad para transmitir conceptos complejos de una manera clara y comprensible. A través de sus explicaciones detalladas, ejemplos prácticos y ejercicios desafiantes, logra llevar incluso los temas más difíciles a un nivel accesible para todos. Su enfoque práctico y basado en proyectos me ha permitido aplicar de inmediato lo que he aprendido, fortaleciendo así mis habilidades de programación."
+        }
+      ],
+      "price": "60",
+      "modalities": [
+        "Individual"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "number": "1111-2222-3333-4444",
+      "name": "Renzo Espíritu",
+      "month": 1,
+      "year": 2025,
+      "cvv": 888,
+      "cash": 1000
+    },
+    {
+      "id": 2,
+      "number": "9999-8888-7777-6666",
+      "name": "María Vega",
+      "month": 5,
+      "year": 2027,
+      "cvv": 555,
+      "cash": 100
+    }
+  ],
+  "icons": [
+    {
+      "id": 1,
+      "python": "fa-python"
+    },
+    {
+      "id": 2,
+      "node-js": "fa-node-js"
+    },
+    {
+      "id": 3,
+      "html": "fa-html5"
+    },
+    {
+      "id": 4,
+      "react": "fa-react"
+    },
+    {
+      "id": 5,
+      "angular": "fa-angular"
+    },
+    {
+      "id": 6,
+      "android": "fa-android"
+    },
+    {
+      "id": 7,
+      "swift": "fa-swift"
+    },
+    {
+      "id": 8,
+      "apple": "fa-apple"
+    },
+    {
+      "id": 9,
+      "database": "fa-database"
+    },
+    {
+      "id": 10,
+      "php": "fa-php"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "C++"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript"
+    },
+    {
+      "id": 3,
+      "name": "Python"
+    },
+    {
+      "id": 4,
+      "name": "SQL"
+    },
+    {
+      "id": 5,
+      "name": "Dart"
+    },
+    {
+      "id": 6,
+      "name": "Flutter"
+    }
+  ]
+}

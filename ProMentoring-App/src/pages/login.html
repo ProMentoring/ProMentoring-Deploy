@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Iniciar Sesion</title>
+     <link rel="stylesheet" href="../css/login.css">
+     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+     <link rel="stylesheet" type="text/css" href="../css/footer.css">
+</head>
+<script src="https://kit.fontawesome.com/c9c206d8a8.js" crossorigin="anonymous"></script>
+
+<body>
+     <header>
+          <div class="navbar container-row">
+               <div class="logo">
+                    <a href="../../../ProMentoring-Landing-Page/src/index.html"><img src="../assets/logo.png"
+                              alt="logo-ProMentoring" id="logo"></a>
+                    <h1>ProMentoring</h1>
+               </div>
+               <div class="pages-indixes">
+                    <a href="#form-login">Iniciar Sesion</a>
+                    <a href="register.html">Registrarse</a>
+               </div>
+          </div>
+     </header>
+     <section>
+          <div class="forms container-col">
+               <h2>Para continuar, inicia sesión en ProMentoring</h2>
+               <div class="buttons container-col">
+                    <button id="facebook-button"><i class="fa-brands fa-facebook fa-lg"></i> Iniciar sesión con
+                         Facebook</button>
+                    <button id="google-button"><i class="fa-brands fa-google-plus-g fa-lg"></i> Iniciar sesión con
+                         Google</button>
+               </div>
+               <form id="form-login" method="POST">
+                    <div class="container-col">
+
+                         <label for="user">Correo Electronico o Nombre de usuario:</label>
+                         <input type="text" id="user" name="user" required>
+
+                         <label for="contrasena">Contraseña:</label>
+                         <input type="password" id="contrasena" name="contrasena" required>
+
+                         <input type="submit" value="Iniciar Sesión">
+                         <div class="container-row">
+                              <span> ¿No tienes una cuenta?</span>
+                              <a href="register.html">Registrate Gratis</a>
+                         </div>
+                    </div>
+               </form>
+
+          </div>
+     </section>
+     <footer>
+          <div id="container-bottom-items">
+               <div id="box-logo">
+                    <img src="../assets/logo.png" alt="LOGO">
+                    <h1>ProMentoring</h1>
+               </div>
+               <div id="container-options">
+                    <div class="container-columns">
+                         <h3>Nosotros</h3>
+                         <a href="">Acerca de</a>
+                         <a href="">Contactos</a>
+                         <a href="">Servicios</a>
+                         <a href="">Socios</a>
+                    </div>
+                    <div class="container-columns">
+                         <h3>Comunidades</h3>
+                         <a href="">Estudiantes</a>
+                         <a href="">Mentores</a>
+                         <a href="">Publicidad</a>
+                         <a href="">Tutoriales</a>
+                    </div>
+                    <div class="container-columns">
+                         <h3>Ayuda</h3>
+                         <a href="">Soporte</a>
+                         <a href="">Términos de servicio</a>
+                    </div>
+               </div>
+               <div id="iconos">
+                    <a href=""><img src="../assets/fb-krita.png" width="40px" height="40px" alt="FACEBOOK"></a>
+                    <a href=""><img src="../assets/yt-krita.png" width="40px" height="40px" alt="YOUTUBE"></a>
+                    <a href=""><img src="../assets/instagram-krita.png" width="40px" height="35px" alt="INSTAGRAM"></a>
+                    <a href=""><img src="../assets/telegram-krita.png" width="40px" height="40px" alt="TELEGRAM"></a>
+               </div>
+          </div>
+          <div id="footer-bottom">
+               <div id="container-conditions">
+                    <a href="">Políticas de privacidad</a>
+                    <a href="">Términos de uso</a>
+                    <a href="">Cookies</a>
+                    <a href="">Legal</a>
+               </div>
+               <span>&copy; 2023 ProMentoring. Todos los derechos reservados</span>
+          </div>
+     </footer>
+     <script src="../js/login.js"></script>
+</body>
+
+</html>
